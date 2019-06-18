@@ -1,9 +1,21 @@
 <!doctype html>
 <html>
+ <head>
 <title>WEB1 - Welcome</title>
 <meta charset="utf-8">
 
- <head>
+<!--Google Analytics를 통한 방문자 추적-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142300869-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-142300869-1');
+</script>
+ </head>
+
    <body>
      <h1><a href="index.html">WEB</h1></a>
        <ol> <!-- Ordered List & Unordered List 의-->
@@ -51,6 +63,7 @@
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </p>
 
+<!-- tawk를 통해 온라인 채팅기-->
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -66,5 +79,5 @@ s0.parentNode.insertBefore(s1,s0);
 <!--End of Tawk.to Script-->
 
    </body>
- </head>
+
 </html>
