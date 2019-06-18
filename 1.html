@@ -23,18 +23,49 @@
      is used to provide interactivity. On the server side, a Web development platform
      like Ruby, PHP or ASP.NET is used.
   <img src="coding.jpg" width="100%"> <!-- src부터 witdth에 해당하는 부분을 속성이라하고 위치는 바뀌어도 상관이 없음 -->
-  </p><p style="margin-top:45px">When a Web developer builds an application,
+  </p>
+  <p style="margin-top:45px">When a Web developer builds an application,
     the work is performed on the server, and raw HTML is sent out to the user.
     The line between server-side development and client side development is blurry
-    with technologies like AJAX.</p><p>HTML was never designed for the Web that exists
+    with technologies like AJAX.
+  </p>
+  <p>HTML was never designed for the Web that exists
     today, as it is just a markup language with severe limitations, in terms of control
     and design. Numerous technologies have been used to work around this issue
-    - the most significant being cascading style sheet (CSS).</p><p>The long term solution
+    - the most significant being cascading style sheet (CSS).
+  </p>
+  <p>The long term solution
       is (or hopefully will be) HTML5, which is the next generation of HTML and allows for
       more control and interactivity. As with any development on the Web, the move
       to standards is a slow and arduous process, and Web developers and designers
       have to make due with current and supported technologies, which means that basic
-      HTML will continue to be used for some time.</p>
+      HTML will continue to be used for some time.
+  </p>
+  <p>
+  <!--댓글기능 추가 DISQUS 무료 보안상의 이유로 file에서는 적용 불가-->
+  <!--Apache를 통해서 IP접속하거나 github에 html파일을 업데이트 함으로써 적용가-->
+    <div id="disqus_thread"></div>
+    <script>
+
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://web1-vmpokd7j17.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </p>
+
   </body>
 </head>
 </html>
